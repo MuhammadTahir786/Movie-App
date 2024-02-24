@@ -73,6 +73,5 @@ Login with the dummy credential to make session with the app.
 
 # Demo
 
-https://github.com/MuhammadTahir786/Movie-App/assets/122633773/618476c9-bd1b-40b6-b4c6-bae2e40c4a99
-
+https://github.com/MuhammadTahir786/Movie-App/assets/122633773/51a57031-dc7e-4c47-898c-e94350498432
 
