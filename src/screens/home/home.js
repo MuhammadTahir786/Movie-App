@@ -16,6 +16,7 @@ const Home = ({ navigation }) => {
 
     const [page, setPage] = useState(1);
     const [search, setSearch] = useState("")
+    const [showMenu, setShowMenu] = useState(false)
     const { LogoutFunction } = useContext(AuthContext)
     const dispatch = useDispatch()
     const isFocus = useIsFocused()
@@ -75,7 +76,7 @@ const Home = ({ navigation }) => {
                             onChangeText={(text) => handleSearch(text)}
                         />
                     </View>
-                    <TouchableOpacity onPress={() => { LogoutFunction() }}>
+                    <TouchableOpacity style={styles.logoutBtn} onPress={() => { LogoutFunction() }}>
                         <Ionicons name="power" size={30} color={Colors.text} />
                     </TouchableOpacity>
                 </View>

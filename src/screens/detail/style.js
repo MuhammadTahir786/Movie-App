@@ -60,7 +60,8 @@ export const styles = StyleSheet.create({
     },
     detailContainer: {
         margin: 10,
-        flex: 1
+        flex: 1,
+        paddingHorizontal: 10
     },
     tagline: {
         color: Colors.text

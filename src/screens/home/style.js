@@ -76,5 +76,10 @@ export const styles = StyleSheet.create({
     listText: {
         color: Colors.text,
         textAlign: "center"
+    },
+    logoutBtn: {
+        backgroundColor: Colors.primary,
+        padding: 10,
+        borderRadius: 10
     }
 })
